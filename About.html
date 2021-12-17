@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="stylenew.css">
+    <title>About Alina Shevchenko </title>
+</head>
+<body>
+
+    <!-- responsive navbar kopieret fra https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_responsive_navbar_dropdown 16.december 2021  -->
+
+
+    <div class="topnav" id="myTopnav">
+        <a href="index.html">Home</a>
+        <a href="About.html" class="active">About</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
+      
+     <script>
+      function myFunction() {
+        var x = 
+      document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+      </script>
+     
+
+    <!-- responsive navbar slut  -->
+
+     <section id="aboutsection">
+
+        <h1 class="abouttext">Hello, name is Alina Shevchenko, I'm 33 year young and I live in wonderful Copenhagen.
+            <br>
+            I study multimediadesign at Zealand Køge since summer 2021. 
+             </h1>
+
+      </section>
+    
+
+
+</body>
+</html>
