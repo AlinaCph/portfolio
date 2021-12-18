@@ -6,32 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="stylenew.css">
-    <title>Portfolio</title>
+    <title>Portfolio Alina Shevchenko</title>
 </head>
 <body>
 
-<!-- Write your comments herekopieret fra https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_responsive_navbar_dropdown 15.december 2021  -->
+<!-- html kode of javaskript for navbar kopieret fra https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_responsive_navbar_dropdown 15.december 2021  -->
 
+  <header>
 
-    <div class="topnav" id="myTopnav">
+    <nav class="topnav" id="myTopnav">
         <a href="index.html" class="active">Home</a>
         <a href="About.html">About</a>
-        <a href="#portfolio">Portfolio</a>
+        <a href="portfolio.html">Portfolio</a>
         <a href="#contact">Contact</a>
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
           <i class="fa fa-bars"></i>
         </a>
-      </div>
-      
-      <div style="padding-left:16px">
-        <h1>test</h1>
-        <p>Resize the browser window to see how it works.</p>
-      </div>
+      </nav>
       
       <script>
       function myFunction() {
         var x = 
-      document.getElementById("myTopnav");
+        document.getElementById("myTopnav");
         if (x.className === "topnav") {
           x.className += " responsive";
         } else {
@@ -39,8 +35,57 @@
         }
       }
       </script>
+
+  </header>    
       
+  <!-- navbar fra w3shools slut -->
+
+  <section id="forsideintro">
+      <h1 class="forsideintrotext"> Alina Shevchenko</h1> 
+    </section>
+
+  <section id="aboutsection">
     
+    <h2 class="abouttext">
+      Hello, my name is Alina and I’m 
+      Copenhagen based multimedia design student and visual artist. 
+      Welcome to my portfolio. You can find here my design projects and artworks. 
+
+    </h2>
+  </section>
+
+  <section id="forsideportfolio">
+
+     
+        <img src="spacejam.png" alt="spacejamweb" width="100%">
+        <img src="space-jam-plakat_.png" alt="spacejamplakat" width="100%">
+    
+    
+    
+        <img src="tangoterapiweb.png" alt="tangoterapiweb" width="100%">
+        <img src="tangoterapimobil.png" alt="tangoterapimobil" width="100%">
+    
+
+    
+      <img src="video.png" alt="christmasstarvideo" width="100%">
+      
+
+
+   <!--inspireret af w3shools guide til at indsætte video/mp4 in i html -->
+    
+      <video width="100%" controls> 
+        <source src="tegninger.mp4"type="video/mp4">
+       </video>
+    
+   
+
+  </section>
+  
+  <footer>
+    <p> +31235081
+      hello@alinashevchenko.com
+    </p>
+  </footer>
 
 </body>
 </html>

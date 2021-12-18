@@ -2,6 +2,15 @@
 
 body {margin:0;font-family:Arial; background-color: #f9f9fa; }
 
+h1 {font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+
+h2 {font-family: Georgia, 'Times New Roman', Times, serif;
+  font-style: italic;
+
+}
+
 .topnav {
   overflow: hidden;
   background-color: #F9F9FA;
@@ -107,13 +116,75 @@ body {margin:0;font-family:Arial; background-color: #f9f9fa; }
 }
 /* w3shools slut */
 
+/* styling af mit navn vertikalt til mobil på forsiden */
+
+@media screen and (max-width: 600px) {
+ 
+ .forsideintrotext { 
+   padding: 50px;
+   border-style: solid;
+   margin-left: auto;
+   margin-right: auto;
+   writing-mode: vertical-lr;
+   text-orientation: upright;
+   text-transform: uppercase;
+   
+  }
+
+}
+/* styling af about section og aboutside billede og text*/
+
 #aboutsection { 
-  background-color: #9F20C4;
-  text-align: center; 
-  font: georgia, italic;
-  color: yellow;
- }
+  background-color: #9F20C4; 
+  
+}
+
+.aboutcontainer{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-around;
+    text-align: center;
+
+}
+
+.alinafoto {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: -50px;
+  padding-top: 50px;
+  width: 200px;
+  height: auto;
+  
+  
+}
 
 .abouttext{
-    padding: 100px;
+     
+  color: #FED000;
+  text-align: center;  
+  padding: 100px;
+  
+    
+}
+
+/*styling af portfolio section på forsiden */
+
+#forsideportfolio {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-around;
+  text-align: center;
+}
+
+footer{
+
+background-color: #f9f9fa;
+color: #9F20C4;
+text-align: center;
+
 }
