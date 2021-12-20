@@ -10,20 +10,19 @@
 </head>
 <body>
 
-    <!-- responsive navbar kopieret fra https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_responsive_navbar_dropdown 16.december 2021  -->
-
-
-    <div class="topnav" id="myTopnav">
+<!-- html kode og javaskript for navbar koperet fra https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_responsive_navbar_dropdown 15.december 2021
+jeg har tilpasset kode udskiftede div ned nav og har slettet extra dropdown menu i css -->
+  <header>
+    <nav class="topnav" id="myTopnav">
         <a href="index.html">Home</a>
         <a href="About.html" class="active">About</a>
         <a href="portfolio.html">Portfolio</a>
-        <a href="#contact">Contact</a>
         <a href="javascript:void(0);" class="icon" onclick="myFunction()">
           <i class="fa fa-bars"></i>
         </a>
-      </div>
+    </nav>
       
-     <script>
+    <script>
       function myFunction() {
         var x = 
       document.getElementById("myTopnav");
@@ -33,26 +32,39 @@
           x.className = "topnav";
         }
       }
-      </script>
-     
+    </script>
+  </header>
 
-    <!-- responsive navbar slut  -->
+<!-- responsive navbar slut  -->
 
     <section id="aboutsection">
 
       <div class="aboutcontainer">
          
         <img src="alinanew.png" alt="mitfoto" class="alinafoto"> 
-        <h2 class="abouttext">My name is Alina Shevchenko,<br>
-              I'm 33 year young and I live in wonderful Copenhagen.
-            <br> I study multimedia design at Zealand Køge since summer 2021. 
-        </h2>
+        <h2 class="abouttext">My name is Alina Shevchenko.<br>
+         I'm 33 year young and I live in wonderful Copenhagen.
+        <br> I study multimedia design at Zealand Køge since summer 2021. 
        
+        </h2>
+         
+
       </div>
+
 
     </section>
     
+  <footer>
+  <p> 
+    Feel free to contact me if you have questions about freelance jobs, collaborations or are interested in purshasing an artwork  
+  </p>
 
+    &nbsp 
+  <p> 
+    +45 31 23 50 81 // hello@alinashevchenko.com
+   </p>
+  </footer>
+  
 
 </body>
 </html>
